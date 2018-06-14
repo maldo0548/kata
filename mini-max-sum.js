@@ -25,7 +25,7 @@ function miniMaxSum(arr) {
   let min = storage.reduce(function(a, b) {
     return Math.min(a, b);
   });
-  let result = [min, max];
+  let result = `${min} ${max}`;
   console.log(result);
   return result;
 }
